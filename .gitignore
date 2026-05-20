@@ -1,0 +1,38 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+out/
+target/
+.dapp/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Stellar/Soroban CLI generated directories
+.stellar/
+.soroban/
+keys/
+passphrase.txt
+identity-*.json
+*.wasm
