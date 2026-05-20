@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import stellarService from "../services/stellarService.js";
+import stellarService from "../services/stellarService";
 
 // GET /api/polls
 export const getPolls = async (req: Request, res: Response): Promise<void> => {

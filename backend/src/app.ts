@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import pollRoutes from "./routes/pollRoutes.js";
+import pollRoutes from "./routes/pollRoutes";
 
 // Load environment variables
 dotenv.config();
